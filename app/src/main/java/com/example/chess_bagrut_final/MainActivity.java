@@ -362,6 +362,7 @@ public class MainActivity extends AppCompatActivity {
                 myRelativeLayout.addView(pieces[i][j].GetImageView(), layoutParamsrook);
                 king.MoveCastle(pieces[i][j]);
                 DidCastle = true;
+                turn++;
             }
             if (king.CanCastleQueenSide(pieces[i][j])){
                 RelativeLayout.LayoutParams layoutParams1 = (RelativeLayout.LayoutParams) piece.GetImageView().getLayoutParams();
@@ -376,8 +377,9 @@ public class MainActivity extends AppCompatActivity {
                 myRelativeLayout.addView(pieces[i][j].GetImageView(), layoutParams2);
                 king.MoveCastle(pieces[i][j]);
                 DidCastle = true;
+                turn++;
             }
-            turn++;
+
         }
         if (piece.CanMove(pieces[i][j], false) && !DidCastle){
             RelativeLayout.LayoutParams layoutParams1 = (RelativeLayout.LayoutParams) piece.GetImageView().getLayoutParams();
