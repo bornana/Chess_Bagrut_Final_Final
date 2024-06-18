@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "268852511667",
+    "firebase_url": "https://bagrut-database-default-rtdb.firebaseio.com",
+    "project_id": "bagrut-database",
+    "storage_bucket": "bagrut-database.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:268852511667:android:fd03cb0dd18208d14ec1c6",
+        "android_client_info": {
+          "package_name": "com.example.chess_bagrut_final"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfrNxwjKccdZwEzcokgiKvxnmAnvRYg9E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
